@@ -4,6 +4,7 @@ const infoLength = document.querySelector('label[for="inputLengthId"]');
 const btnGerar = document.querySelector("#btnGerar");
 
 const chkLower = document.querySelector("#chkLowerId");
+chkLower.checked = true;
 const chkUpper = document.querySelector("#chkUpperId");
 const chkNumber = document.querySelector("#chkNumberId");
 const chkSymbols = document.querySelector("#chkSymbolsId");
