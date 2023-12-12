@@ -23,6 +23,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  border-radius: 5px;
 }
 
 main > div {
@@ -34,9 +35,10 @@ main > div {
 input {
   padding: 5px;
   outline: none;
-  accent-color: #add8e6; /* Cor principal azul claro */
-  border-color: #add8e6; /* Cor principal azul claro */
+  accent-color: #0066cc; /* Cor principal azul mais escuro */
+  border-color: #0066cc; /* Cor principal azul mais escuro */
   color: #121212; /* Cor do texto para tema escuro */
+  border-radius: 5px;
 }
 
 input[type=checkbox] {
@@ -49,13 +51,14 @@ input[type=range] {
 }
 
 #btnGerar {
-  background-color: #add8e6; /* Cor principal azul claro */
+  background-color: #0066cc; /* Cor principal azul mais escuro */
   cursor: pointer;
   color: #121212; /* Cor do texto para botão */
   border: none;
   padding: 5px;
+  border-radius: 5px;
 }
 
 h1 {
-    font-size: 1.5rem;  
+  font-size: 1.5rem;
 }
