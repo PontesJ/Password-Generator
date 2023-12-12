@@ -4,7 +4,6 @@ const infoLength = document.querySelector('label[for="inputLengthId"]');
 const btnGerar = document.querySelector("#btnGerar");
 
 const chkLower = document.querySelector("#chkLowerId");
-chkLower.checked = true;
 const chkUpper = document.querySelector("#chkUpperId");
 const chkNumber = document.querySelector("#chkNumberId");
 const chkSymbols = document.querySelector("#chkSymbolsId");
@@ -79,3 +78,9 @@ document.getElementById('copyButtonId').addEventListener('click', function() {
     }, 2000);
   });
   
+
+document.onload = generatePassword( false, false, true, false, 6);
+document.onload = chkLower.checked = true;
+
+lenInput.value = 6;
+infoLength.innerHTML = lenInput.value;
