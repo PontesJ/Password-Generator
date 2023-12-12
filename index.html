@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <main>
+        <h1 style="align-items: center; text-align: center;">Gerador de Senhas</h1>
+        <div>
+            <input id="inputPasswordId" type="text" readonly />
+            <button style="cursor: pointer;" id="copyButtonId">📋</button>
+        </div>
+        <div>
+            <p id="copyConfirmId" style="display: none;">Texto copiado!</p>
+        </div>
+
+        <div>
+            <input style="cursor: pointer;" id="inputLengthId" type="range" min="6" max="50" />
+            <label for="inputLengthId"></label>
+        </div>
+        <div>
+            <input style="cursor: pointer;" id="chkLowerId" type="checkbox" />
+            <label style="cursor: pointer;" for="chkLowerId">Letras minúsculas (a, b, c)</label>
+        </div>
+        <div>
+            <input style="cursor: pointer;" id="chkUpperId" type="checkbox" />
+            <label style="cursor: pointer;" for="chkUpperId">Letras maiúsculas (A, B, C)</label>
+        </div>
+        <div>
+            <input style="cursor: pointer;" id="chkNumberId" type="checkbox" />
+            <label style="cursor: pointer;" for="chkNumberId">Números (1, 2, 3)</label>
+        </div>
+        <div>
+            <input style="cursor: pointer;" id="chkSymbolsId" type="checkbox" />
+            <label style="cursor: pointer;" for="chkSymbolsId">Símbolos (!, @, #, $, %)</label>
+        </div>
+
+        <button id="btnGerar">Gerar</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
